@@ -1,0 +1,49 @@
+{
+    "keyboard_name": "Proto",
+    "manufacturer": "Three_Peze Studios",
+    "url": "https://https://threepezestudios.com/",
+    "maintainer": "Three_Peze Studios",
+    "usb": {
+        "vid": "0x0147",
+        "pid": "0x47CA",
+        "device_version": "0.0.1"
+    },
+    "features": {
+        "bootmagic": true,
+        "command": true,
+        "console": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "encoder": true,
+        "rgb_matrix": false
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "F0", "pin_b": "F1"},
+            {"pin_a": "F2", "pin_b": "F3"}
+        ]
+    },
+    "rgb_matrix": {
+        "driver": "is31fl3741"
+    },
+    "processor": "at90usb1286",
+    "bootloader": "atmel-dfu",
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["C0", "C1", "C2"],
+        "rows": ["E1", "E0"]
+    },
+    "layouts": {
+        "LAYOUT_ortho_2x3": {
+            "layout": [
+                {"label": "Q", "matrix": [0, 0], "x": 0, "y": 0},
+                {"label": "W", "matrix": [0, 1], "x": 1, "y": 0},
+                {"label": "E", "matrix": [0, 2], "x": 2, "y": 0},
+                {"label": "A", "matrix": [1, 0], "x": 0, "y": 1},
+                {"label": "S", "matrix": [1, 1], "x": 1, "y": 1},
+                {"label": "D", "matrix": [1, 2], "x": 2, "y": 1}               
+            ]
+        }
+    }
+}
