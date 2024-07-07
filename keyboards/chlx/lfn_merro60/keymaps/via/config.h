@@ -1,5 +1,5 @@
 /*
-Copyright 2017 Danny Nguyen <danny@hexwire.com>
+Copyright 2024 Alexander Lee <chlx.bsmt@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -17,4 +17,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#define USE_I2C
+/* VIA related config */
+#define VIA_EEPROM_LAYOUT_OPTIONS_SIZE 2
